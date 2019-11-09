@@ -1,0 +1,59 @@
+2019-11-08 05:08:58.2931||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\vswin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-11-08 05:08:58.8738||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2019-11-08 05:08:58.8858||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2019-11-08 05:08:58.8978||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\vswin\OneDrive\Desktop\LoggingDemo 
+2019-11-08 05:08:58.9254|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44304/   
+2019-11-08 05:08:58.9652|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)' 
+2019-11-08 05:08:59.0403|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggingDemo.Controllers.HomeController (LoggingDemo). 
+2019-11-08 05:08:59.4533||ERROR|LoggingDemo.Controllers.HomeController|Attempted to divide by zero. 
+2019-11-08 05:09:16.3792|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2019-11-08 05:09:16.5403|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 171.3289ms. 
+2019-11-08 05:09:16.5403|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LoggingDemo.Controllers.HomeController.Index (LoggingDemo) in 17501.7364ms 
+2019-11-08 05:09:16.5643|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)' 
+2019-11-08 05:09:16.5750|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44304/css/site.css   
+2019-11-08 05:09:16.5750|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44304/lib/bootstrap/dist/css/bootstrap.min.css   
+2019-11-08 05:09:16.5750|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44304/lib/jquery/dist/jquery.min.js   
+2019-11-08 05:09:16.5994|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 17660.027700000002ms 200 text/html; charset=utf-8 
+2019-11-08 05:09:16.6231|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44304/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   
+2019-11-08 05:09:16.6381|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\vswin\OneDrive\Desktop\LoggingDemo\wwwroot\css\site.css' 
+2019-11-08 05:09:16.6381|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\vswin\OneDrive\Desktop\LoggingDemo\wwwroot\js\site.js' 
+2019-11-08 05:09:16.6381|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 67.89320000000001ms 200 text/css 
+2019-11-08 05:09:16.6381|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 21.741500000000002ms 200 application/javascript 
+2019-11-08 05:09:16.6562|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44304/lib/bootstrap/dist/js/bootstrap.bundle.min.js   
+2019-11-08 05:09:16.8162|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\vswin\OneDrive\Desktop\LoggingDemo\wwwroot\lib\jquery\dist\jquery.min.js' 
+2019-11-08 05:09:16.8263|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\vswin\OneDrive\Desktop\LoggingDemo\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css' 
+2019-11-08 05:09:16.8263|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 250.1535ms 200 application/javascript 
+2019-11-08 05:09:16.8412|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 259.6678ms 200 text/css 
+2019-11-08 05:09:16.8670|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\vswin\OneDrive\Desktop\LoggingDemo\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js' 
+2019-11-08 05:09:16.8743|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 219.97840000000002ms 200 application/javascript 
+2019-11-08 05:09:17.0397|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44304/favicon.ico   
+2019-11-08 05:09:17.0673|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\vswin\OneDrive\Desktop\LoggingDemo\wwwroot\favicon.ico' 
+2019-11-08 05:09:17.0747|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 35.7117ms 200 image/x-icon 
+2019-11-08 05:12:05.2501||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\vswin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-11-08 05:12:05.5092||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2019-11-08 05:12:05.5172||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2019-11-08 05:12:05.5172||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\vswin\OneDrive\Desktop\LoggingDemo 
+2019-11-08 05:12:05.5483|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44304/   
+2019-11-08 05:12:05.5766|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)' 
+2019-11-08 05:12:05.6412|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggingDemo.Controllers.HomeController (LoggingDemo). 
+2019-11-08 05:12:05.7176||ERROR|LoggingDemo.Controllers.HomeController|Attempted to divide by zero. 
+2019-11-08 05:12:21.9378|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2019-11-08 05:12:22.0759|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 142.5985ms. 
+2019-11-08 05:12:22.0759|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LoggingDemo.Controllers.HomeController.Index (LoggingDemo) in 16437.9873ms 
+2019-11-08 05:12:22.0902|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)' 
+2019-11-08 05:12:22.1060|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 16554.9741ms 200 text/html; charset=utf-8 
+2019-11-08 05:12:22.1060|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44304/css/site.css   
+2019-11-08 05:12:22.1405|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44304/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   
+2019-11-08 05:12:22.1405|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44304/lib/bootstrap/dist/css/bootstrap.min.css   
+2019-11-08 05:12:22.1405|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44304/lib/jquery/dist/jquery.min.js   
+2019-11-08 05:12:22.1622|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44304/lib/bootstrap/dist/js/bootstrap.bundle.min.js   
+2019-11-08 05:12:22.1762|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\vswin\OneDrive\Desktop\LoggingDemo\wwwroot\css\site.css' 
+2019-11-08 05:12:22.1762|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\vswin\OneDrive\Desktop\LoggingDemo\wwwroot\js\site.js' 
+2019-11-08 05:12:22.1962|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 69.95270000000001ms 200 text/css 
+2019-11-08 05:12:22.1962|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\vswin\OneDrive\Desktop\LoggingDemo\wwwroot\lib\jquery\dist\jquery.min.js' 
+2019-11-08 05:12:22.1962|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\vswin\OneDrive\Desktop\LoggingDemo\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js' 
+2019-11-08 05:12:22.1962|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 70.0685ms 200 application/javascript 
+2019-11-08 05:12:22.2150|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\vswin\OneDrive\Desktop\LoggingDemo\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css' 
+2019-11-08 05:12:22.2150|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 78.15220000000001ms 200 application/javascript 
+2019-11-08 05:12:22.2150|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 60.8817ms 200 application/javascript 
+2019-11-08 05:12:22.2295|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 113.87880000000001ms 200 text/css 

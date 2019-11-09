@@ -1,0 +1,624 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="11/5/2019 3:20:34 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="WINDOWS10"
+  DTS:CreatorName="WINDOWS10\vswin"
+  DTS:DTSID="{53726788-8B15-411E-9318-96FB9890336E}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.1301.433"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{0CC8E8DB-3003-4F05-B5A8-772F23566BFA}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{74553B4C-A25A-4969-8101-CC5498C11ADD}"
+      DTS:ObjectName="Flat File Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="F:\MVC_Training\SSIS\SSIS.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ID"
+              DTS:DTSID="{7ECAE3D0-A69E-4239-9CD4-13CE0ACEE72A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Name"
+              DTS:DTSID="{932B40D2-3020-4044-A4D4-2F8E44D2D493}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Designation"
+              DTS:DTSID="{51AD2891-7894-4591-89AD-D8F213B5CA31}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Department"
+              DTS:DTSID="{8E31E9A7-89A7-45AC-910E-D49F8A285FB6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Salary"
+              DTS:DTSID="{BC6A7A7A-DB16-4501-B4D8-58549B0A85B4}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 1]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{3362EACD-EF10-4D42-9C6D-53CDAFAABA3D}"
+      DTS:ObjectName="Flat File Connection Manager 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="F:\MVC_Training\SSIS\SSIS.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ID"
+              DTS:DTSID="{C88B19C1-9D5C-4B0C-A396-D48104F585D4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Name"
+              DTS:DTSID="{1C2A579E-225F-462A-93D8-8D8CE9E54864}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Designation"
+              DTS:DTSID="{FB780351-0C6C-4D2B-969A-18B704A10A9F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Department"
+              DTS:DTSID="{0BBD7E1E-5B7D-4383-9430-2243A62FE038}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Salary"
+              DTS:DTSID="{F60F5F71-F251-4FD0-9971-B507D8D1C7EB}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[WINDOWS10.Database2]"
+      DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{E03B7C29-09DD-4161-910A-7CC73E4266F6}"
+      DTS:ObjectName="WINDOWS10.Database2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=WINDOWS10;Initial Catalog=Database2;Integrated Security=True;Application Name=SSIS-Package1-{E03B7C29-09DD-4161-910A-7CC73E4266F6}WINDOWS10.Database2;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[WINDOWS10.Employee_SSIS]"
+      DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{E6C4DD32-6A1A-4B64-A6EF-23B1672DF4A3}"
+      DTS:ObjectName="WINDOWS10.Employee_SSIS">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=WINDOWS10;Initial Catalog=Employee_SSIS;Integrated Security=True;Application Name=SSIS-Package1-{E6C4DD32-6A1A-4B64-A6EF-23B1672DF4A3}WINDOWS10.Employee_SSIS;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Get Data From CSV"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{4D4DD6D2-CB3B-4227-801C-7FE81AD293A5}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Get Data From CSV"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Get Data From CSV\ADO NET Destination"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
+              description="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination."
+              name="ADO NET Destination"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="The Destination database table name."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."Employee2"</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specify the number of rows per batch. The default is 0 which uses the same size as SSIS internal buffer. "
+                  expressionType="Notify"
+                  name="BatchSize">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out. A value of 0 indicates infinite time-out. "
+                  expressionType="Notify"
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether to use the SqlBulkCopy interface to improve the performance of bulk insert operations. Only certain providers support this interface."
+                  expressionType="Notify"
+                  name="UseBulkInsertWhenPossible">true</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.ADONETDestination</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Get Data From CSV\ADO NET Destination.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[WINDOWS10.Database2]"
+                  connectionManagerRefId="Package.ConnectionManagers[WINDOWS10.Database2]"
+                  description="Managed connection manager"
+                  name="IDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Get Data From CSV\ADO NET Destination.Inputs[ADO NET Destination Input]"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="ADO NET Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Get Data From CSV\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[ID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ID"
+                      externalMetadataColumnId="Package\Get Data From CSV\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[ID]"
+                      lineageId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].Columns[ID]" />
+                    <inputColumn
+                      refId="Package\Get Data From CSV\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Name]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Name"
+                      externalMetadataColumnId="Package\Get Data From CSV\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Name]"
+                      lineageId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].Columns[Name]" />
+                    <inputColumn
+                      refId="Package\Get Data From CSV\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Designation]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Designation"
+                      externalMetadataColumnId="Package\Get Data From CSV\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Designation]"
+                      lineageId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].Columns[Designation]" />
+                    <inputColumn
+                      refId="Package\Get Data From CSV\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Department]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Department"
+                      externalMetadataColumnId="Package\Get Data From CSV\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Department]"
+                      lineageId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].Columns[Department]" />
+                    <inputColumn
+                      refId="Package\Get Data From CSV\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Salary]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Salary"
+                      externalMetadataColumnId="Package\Get Data From CSV\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Salary]"
+                      lineageId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].Columns[Salary]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Get Data From CSV\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[ID]"
+                      dataType="i4"
+                      name="ID" />
+                    <externalMetadataColumn
+                      refId="Package\Get Data From CSV\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Name]"
+                      dataType="wstr"
+                      length="50"
+                      name="Name" />
+                    <externalMetadataColumn
+                      refId="Package\Get Data From CSV\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Designation]"
+                      dataType="wstr"
+                      length="50"
+                      name="Designation" />
+                    <externalMetadataColumn
+                      refId="Package\Get Data From CSV\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Department]"
+                      dataType="wstr"
+                      length="50"
+                      name="Department" />
+                    <externalMetadataColumn
+                      refId="Package\Get Data From CSV\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[Salary]"
+                      dataType="r8"
+                      name="Salary" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Get Data From CSV\ADO NET Destination.Outputs[ADO NET Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="ADO NET Destination Error Output"
+                  synchronousInputId="Package\Get Data From CSV\ADO NET Destination.Inputs[ADO NET Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Get Data From CSV\ADO NET Destination.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Get Data From CSV\ADO NET Destination.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Get Data From CSV\ADO NET Destination.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Get Data From CSV\ADO NET Destination.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Get Data From CSV\Flat File Source"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1033"
+              name="Flat File Source"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">true</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Get Data From CSV\Flat File Source.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager 1]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].Columns[ID]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ID]"
+                      length="50"
+                      lineageId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].Columns[ID]"
+                      name="ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].Columns[Name]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Name]"
+                      length="50"
+                      lineageId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].Columns[Name]"
+                      name="Name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].Columns[Designation]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Designation]"
+                      length="50"
+                      lineageId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].Columns[Designation]"
+                      name="Designation"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].Columns[Department]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Department]"
+                      length="50"
+                      lineageId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].Columns[Department]"
+                      name="Department"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].Columns[Salary]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Salary]"
+                      length="50"
+                      lineageId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].Columns[Salary]"
+                      name="Salary"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ID" />
+                    <externalMetadataColumn
+                      refId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Name]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Name" />
+                    <externalMetadataColumn
+                      refId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Designation]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Designation" />
+                    <externalMetadataColumn
+                      refId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Department]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Department" />
+                    <externalMetadataColumn
+                      refId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Salary]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Salary" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Get Data From CSV.Paths[Flat File Source Output]"
+              endId="Package\Get Data From CSV\ADO NET Destination.Inputs[ADO NET Destination Input]"
+              name="Flat File Source Output"
+              startId="Package\Get Data From CSV\Flat File Source.Outputs[Flat File Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="177,42"
+          Id="Package\Get Data From CSV"
+          TopLeft="299,63" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Get Data From CSV">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="156,42"
+          Id="Package\Get Data From CSV\Flat File Source"
+          TopLeft="218.5,6.5" />
+        <NodeLayout
+          Size="186,42"
+          Id="Package\Get Data From CSV\ADO NET Destination"
+          TopLeft="380.5,98.5" />
+        <EdgeLayout
+          Id="Package\Get Data From CSV.Paths[Flat File Source Output]"
+          TopLeft="296.5,48.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="177,50"
+              Start="0,0"
+              End="177,42.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,21"
+                    Point2="0,25"
+                    Point3="4,25" />
+                  <mssgle:LineSegment
+                    End="173,25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="173,25"
+                    Point2="177,25"
+                    Point3="177,29" />
+                  <mssgle:LineSegment
+                    End="177,42.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Get Data From CSV\ADO NET Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

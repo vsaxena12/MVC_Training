@@ -1,0 +1,106 @@
+2019-10-30 14:54:40.4379 Info Message Template Auto Format enabled
+2019-10-30 14:54:40.5054 Info Loading assembly: NLog.Web.AspNetCore
+2019-10-30 14:54:40.7998 Info Adding target FileTarget(Name=alldata)
+2019-10-30 14:54:40.9579 Info Adding target FileTarget(Name=RequiredInfo)
+2019-10-30 14:54:41.1226 Info Found 45 configuration items
+2019-10-30 14:59:35.1969 Info Message Template Auto Format enabled
+2019-10-30 14:59:35.2207 Info Loading assembly: NLog.Web.AspNetCore
+2019-10-30 14:59:35.3137 Info Adding target FileTarget(Name=alldata)
+2019-10-30 14:59:35.3288 Info Adding target FileTarget(Name=RequiredInfo)
+2019-10-30 14:59:35.4466 Info Found 45 configuration items
+2019-10-31 09:51:00.2381 Info Message Template Auto Format enabled
+2019-10-31 09:51:00.4686 Info Loading assembly: NLog.Web.AspNetCore
+2019-10-31 09:51:02.0231 Warn Error when setting 'NLog' on attibute 'connectionStringName' Exception: System.NotSupportedException: Parameter connectionStringName not supported on DatabaseTarget
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+2019-10-31 09:51:02.0751 Error Exception when parsing C:\Users\admin\source\repos\Core\LoggingDemo\bin\Debug\netcoreapp3.0\nlog.config.  Exception: System.NotSupportedException: Parameter connectionStringName not supported on DatabaseTarget
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetElement(Target target, ILoggingConfigurationElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2019-10-31 09:51:02.1312 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Exception when parsing C:\Users\admin\source\repos\Core\LoggingDemo\bin\Debug\netcoreapp3.0\nlog.config. 
+ ---> System.NotSupportedException: Parameter connectionStringName not supported on DatabaseTarget
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetElement(Target target, ILoggingConfigurationElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2019-10-31 09:51:02.3344 Info Found 0 configuration items
+2019-10-31 10:02:07.7425 Info Message Template Auto Format enabled
+2019-10-31 10:02:07.7718 Info Loading assembly: NLog.Web.AspNetCore
+2019-10-31 10:02:07.9337 Info Adding target DatabaseTarget(Name=database)
+2019-10-31 10:02:07.9862 Info Adding target FileTarget(Name=alldata)
+2019-10-31 10:02:08.0569 Info Adding target FileTarget(Name=RequiredInfo)
+2019-10-31 10:02:08.1647 Info Found 74 configuration items
+2019-11-08 05:08:56.7066 Info Message Template Auto Format enabled
+2019-11-08 05:08:56.7412 Info Loading assembly: NLog.Web.AspNetCore
+2019-11-08 05:08:56.8178 Info Adding target DatabaseTarget(Name=database)
+2019-11-08 05:08:56.8469 Info Adding target FileTarget(Name=alldata)
+2019-11-08 05:08:56.8637 Info Adding target FileTarget(Name=RequiredInfo)
+2019-11-08 05:08:56.9400 Info Found 74 configuration items
+2019-11-08 05:09:12.1699 Info Configuration file change detected! Reloading in 1000ms...
+2019-11-08 05:09:13.1798 Info Reloading configuration...
+2019-11-08 05:09:13.1798 Info Configuring from an XML element in C:\Users\vswin\OneDrive\Desktop\LoggingDemo\bin\Debug\netcoreapp3.0\Nlog.config...
+2019-11-08 05:09:13.1991 Info Message Template Auto Format enabled
+2019-11-08 05:09:13.1991 Info Loading assembly: NLog.Web.AspNetCore
+2019-11-08 05:09:13.2148 Info Adding target DatabaseTarget(Name=database)
+2019-11-08 05:09:13.2148 Info Adding target FileTarget(Name=alldata)
+2019-11-08 05:09:13.2297 Info Adding target FileTarget(Name=RequiredInfo)
+2019-11-08 05:09:13.2297 Info Closing old configuration.
+2019-11-08 05:09:16.0356 Error DatabaseTarget(Name=database): Error when writing to database. Exception: System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NLog.Targets.DatabaseTarget.OpenConnection(String connectionString)
+   at NLog.Targets.DatabaseTarget.EnsureConnectionOpen(String connectionString)
+   at NLog.Targets.DatabaseTarget.WriteEventToDatabase(LogEventInfo logEvent, String connectionString)
+   at NLog.Targets.DatabaseTarget.Write(LogEventInfo logEvent)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2019-11-08 05:09:16.3493 Info Found 74 configuration items
+2019-11-08 05:12:04.1903 Info Message Template Auto Format enabled
+2019-11-08 05:12:04.2212 Info Loading assembly: NLog.Web.AspNetCore
+2019-11-08 05:12:04.2949 Info Adding target DatabaseTarget(Name=database)
+2019-11-08 05:12:04.3180 Info Adding target FileTarget(Name=alldata)
+2019-11-08 05:12:04.3313 Info Adding target FileTarget(Name=RequiredInfo)
+2019-11-08 05:12:04.3806 Info Found 74 configuration items
+2019-11-08 05:12:21.9107 Error DatabaseTarget(Name=database): Error when writing to database. Exception: System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NLog.Targets.DatabaseTarget.OpenConnection(String connectionString)
+   at NLog.Targets.DatabaseTarget.EnsureConnectionOpen(String connectionString)
+   at NLog.Targets.DatabaseTarget.WriteEventToDatabase(LogEventInfo logEvent, String connectionString)
+   at NLog.Targets.DatabaseTarget.Write(LogEventInfo logEvent)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20

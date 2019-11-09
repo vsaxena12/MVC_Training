@@ -1,0 +1,70 @@
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\bin\Debug\netcoreapp2.2\WebApplicationConsumeAPI.deps.json
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\bin\Debug\netcoreapp2.2\WebApplicationConsumeAPI.runtimeconfig.json
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\bin\Debug\netcoreapp2.2\WebApplicationConsumeAPI.runtimeconfig.dev.json
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\bin\Debug\netcoreapp2.2\WebApplicationConsumeAPI.dll
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.csprojAssemblyReference.cache
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.csproj.CoreCompileInputs.cache
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.RazorAssemblyInfo.cache
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.RazorAssemblyInfo.cs
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.AssemblyInfoInputs.cache
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.AssemblyInfo.cs
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.TagHelpers.input.cache
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.TagHelpers.output.cache
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.RazorCoreGenerate.cache
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.RazorTargetAssemblyInfo.cache
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.RazorTargetAssemblyInfo.cs
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\bin\Debug\netcoreapp2.2\WebApplicationConsumeAPI.pdb
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\bin\Debug\netcoreapp2.2\WebApplicationConsumeAPI.Views.dll
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\bin\Debug\netcoreapp2.2\WebApplicationConsumeAPI.Views.pdb
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.Views.pdb
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.dll
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.pdb
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.csproj.CopyComplete
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Index.g.cshtml.cs
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Create.g.cshtml.cs
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Edit.g.cshtml.cs
+C:\Users\461206\source\repos\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Delete.g.cshtml.cs
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\bin\Debug\netcoreapp2.2\appsettings.Development.json
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\bin\Debug\netcoreapp2.2\appsettings.json
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\bin\Debug\netcoreapp2.2\WebApplicationConsumeAPI.deps.json
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\bin\Debug\netcoreapp2.2\WebApplicationConsumeAPI.runtimeconfig.json
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\bin\Debug\netcoreapp2.2\WebApplicationConsumeAPI.runtimeconfig.dev.json
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\bin\Debug\netcoreapp2.2\WebApplicationConsumeAPI.dll
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\bin\Debug\netcoreapp2.2\WebApplicationConsumeAPI.pdb
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\bin\Debug\netcoreapp2.2\WebApplicationConsumeAPI.Views.dll
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\bin\Debug\netcoreapp2.2\WebApplicationConsumeAPI.Views.pdb
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.csprojAssemblyReference.cache
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.RazorAssemblyInfo.cache
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.RazorAssemblyInfo.cs
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.AssemblyInfoInputs.cache
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.AssemblyInfo.cs
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.TagHelpers.input.cache
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.TagHelpers.output.cache
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.RazorCoreGenerate.cache
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Create.cshtml.g.cs
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Delete.cshtml.g.cs
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Edit.cshtml.g.cs
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Index.cshtml.g.cs
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.RazorTargetAssemblyInfo.cache
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.RazorTargetAssemblyInfo.cs
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.Views.pdb
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.dll
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.pdb
+F:\MVC_Training\Web API\WebApplicationConsumeAPI\WebApplicationConsumeAPI\obj\Debug\netcoreapp2.2\WebApplicationConsumeAPI.csproj.CopyComplete

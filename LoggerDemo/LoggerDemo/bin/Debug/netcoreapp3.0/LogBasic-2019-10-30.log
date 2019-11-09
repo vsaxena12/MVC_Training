@@ -1,0 +1,272 @@
+2019-10-30 14:53:26.9835||DEBUG|LoggerDemo.Program|init main function 
+2019-10-30 14:53:28.5981||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\vswin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-30 14:53:28.9320||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2019-10-30 14:53:28.9320||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2019-10-30 14:53:28.9420||INFO|Microsoft.Hosting.Lifetime|Content root path: F:\TCS_Training\LoggerDemo\LoggerDemo 
+2019-10-30 14:53:28.9680|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/   
+2019-10-30 14:53:28.9986|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LoggerDemo.Controllers.HomeController.Index (LoggerDemo)' 
+2019-10-30 14:53:29.0597|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggerDemo.Controllers.HomeController (LoggerDemo). 
+2019-10-30 14:53:29.3189||ERROR|LoggerDemo.Controllers.HomeController|Attempted to divide by zero. 
+2019-10-30 14:53:29.3579|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2019-10-30 14:53:29.5170|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 167.16240000000002ms. 
+2019-10-30 14:53:29.5170|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LoggerDemo.Controllers.HomeController.Index (LoggerDemo) in 458.04240000000004ms 
+2019-10-30 14:53:29.5423|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LoggerDemo.Controllers.HomeController.Index (LoggerDemo)' 
+2019-10-30 14:53:29.5500|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/css/site.css   
+2019-10-30 14:53:29.5500|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/lib/jquery/dist/jquery.min.js   
+2019-10-30 14:53:29.5500|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/css/bootstrap.min.css   
+2019-10-30 14:53:29.5500|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   
+2019-10-30 14:53:29.5681|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 598.5711ms 200 text/html; charset=utf-8 
+2019-10-30 14:53:29.6037|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/js/bootstrap.bundle.min.js   
+2019-10-30 14:53:29.6037|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\js\site.js' 
+2019-10-30 14:53:29.6037|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\css\site.css' 
+2019-10-30 14:53:29.6037|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 63.8656ms 200 application/javascript 
+2019-10-30 14:53:29.6425|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 91.5912ms 200 text/css 
+2019-10-30 14:53:29.6425|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js' 
+2019-10-30 14:53:29.6425|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\lib\jquery\dist\jquery.min.js' 
+2019-10-30 14:53:29.6634|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css' 
+2019-10-30 14:53:29.6634|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 124.7766ms 200 application/javascript 
+2019-10-30 14:53:29.6753|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 70.1012ms 200 application/javascript 
+2019-10-30 14:53:29.6753|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 131.7313ms 200 text/css 
+2019-10-30 15:00:29.4526||DEBUG|LoggerDemo.Program|init main function 
+2019-10-30 15:00:30.6664||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\vswin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-30 15:00:30.9597||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2019-10-30 15:00:30.9597||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2019-10-30 15:00:30.9765||INFO|Microsoft.Hosting.Lifetime|Content root path: F:\TCS_Training\LoggerDemo\LoggerDemo 
+2019-10-30 15:00:31.0101|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/   
+2019-10-30 15:00:31.0405|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LoggerDemo.Controllers.HomeController.Index (LoggerDemo)' 
+2019-10-30 15:00:31.1135|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggerDemo.Controllers.HomeController (LoggerDemo). 
+2019-10-30 15:00:31.2175||ERROR|LoggerDemo.Controllers.HomeController|Attempted to divide by zero. 
+2019-10-30 15:00:31.2291||INFO|LoggerDemo.Controllers.HomeController|This is the test information for Logging 
+2019-10-30 15:00:31.2356||INFO|LoggerDemo.Controllers.HomeController|Next Information 
+2019-10-30 15:00:31.2768|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2019-10-30 15:00:31.5138|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 246.4215ms. 
+2019-10-30 15:00:31.5228|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LoggerDemo.Controllers.HomeController.Index (LoggerDemo) in 402.0821ms 
+2019-10-30 15:00:31.5491|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LoggerDemo.Controllers.HomeController.Index (LoggerDemo)' 
+2019-10-30 15:00:31.5491|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/css/bootstrap.min.css   
+2019-10-30 15:00:31.5491|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/js/bootstrap.bundle.min.js   
+2019-10-30 15:00:31.5657|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   
+2019-10-30 15:00:31.5657|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/lib/jquery/dist/jquery.min.js   
+2019-10-30 15:00:31.5797|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 563.0615ms 200 text/html; charset=utf-8 
+2019-10-30 15:00:31.6506|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/css/site.css   
+2019-10-30 15:00:31.6506|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\js\site.js' 
+2019-10-30 15:00:31.6787|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\css\site.css' 
+2019-10-30 15:00:31.6888|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 126.2104ms 200 application/javascript 
+2019-10-30 15:00:31.6888|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 45.7216ms 200 text/css 
+2019-10-30 15:00:31.6888|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\lib\jquery\dist\jquery.min.js' 
+2019-10-30 15:00:31.7143|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js' 
+2019-10-30 15:00:31.7217|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 163.5994ms 200 application/javascript 
+2019-10-30 15:00:31.7217|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css' 
+2019-10-30 15:00:31.7372|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 178.6388ms 200 application/javascript 
+2019-10-30 15:00:31.7372|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 188.0618ms 200 text/css 
+2019-10-30 15:38:23.4134||DEBUG|LoggerDemo.Program|init main function 
+2019-10-30 15:38:24.5836||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\vswin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-30 15:38:24.8842||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2019-10-30 15:38:24.8842||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2019-10-30 15:38:24.8947||INFO|Microsoft.Hosting.Lifetime|Content root path: F:\TCS_Training\LoggerDemo\LoggerDemo 
+2019-10-30 15:38:24.9368|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/   
+2019-10-30 15:38:24.9642|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LoggerDemo.Controllers.HomeController.Index (LoggerDemo)' 
+2019-10-30 15:38:25.0182|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggerDemo.Controllers.HomeController (LoggerDemo). 
+2019-10-30 15:38:25.1121||ERROR|LoggerDemo.Controllers.HomeController|Attempted to divide by zero. 
+2019-10-30 15:38:25.1121||INFO|LoggerDemo.Controllers.HomeController|This is the test information for Logging 
+2019-10-30 15:38:25.1263||INFO|LoggerDemo.Controllers.HomeController|Next Information 
+2019-10-30 15:38:25.1588|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2019-10-30 15:38:25.3442|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 183.6962ms. 
+2019-10-30 15:38:25.3526|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LoggerDemo.Controllers.HomeController.Index (LoggerDemo) in 326.83570000000003ms 
+2019-10-30 15:38:25.3670|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LoggerDemo.Controllers.HomeController.Index (LoggerDemo)' 
+2019-10-30 15:38:25.3768|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/js/bootstrap.bundle.min.js   
+2019-10-30 15:38:25.3768|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/css/site.css   
+2019-10-30 15:38:25.3768|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/css/bootstrap.min.css   
+2019-10-30 15:38:25.3768|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/lib/jquery/dist/jquery.min.js   
+2019-10-30 15:38:25.3943|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 454.07660000000004ms 200 text/html; charset=utf-8 
+2019-10-30 15:38:25.4176|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   
+2019-10-30 15:38:25.4351|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\js\site.js' 
+2019-10-30 15:38:25.4351|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\css\site.css' 
+2019-10-30 15:38:25.4466|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 27.332600000000003ms 200 application/javascript 
+2019-10-30 15:38:25.4644|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 76.8184ms 200 text/css 
+2019-10-30 15:38:25.4833|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js' 
+2019-10-30 15:38:25.4949|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\lib\jquery\dist\jquery.min.js' 
+2019-10-30 15:38:25.5008|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 128.018ms 200 application/javascript 
+2019-10-30 15:38:25.5008|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 128.3074ms 200 application/javascript 
+2019-10-30 15:38:25.5306|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css' 
+2019-10-30 15:38:25.5441|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 162.58710000000002ms 200 text/css 
+2019-10-30 15:40:54.0016||DEBUG|LoggerDemo.Program|init main function 
+2019-10-30 15:40:54.2675||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\vswin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-30 15:40:54.4673||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2019-10-30 15:40:54.4774||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2019-10-30 15:40:54.4862||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2019-10-30 15:40:54.4862||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2019-10-30 15:40:54.4862||INFO|Microsoft.Hosting.Lifetime|Content root path: F:\TCS_Training\LoggerDemo\LoggerDemo 
+2019-10-30 15:41:02.9349|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/   
+2019-10-30 15:41:02.9470|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LoggerDemo.Controllers.HomeController.Index (LoggerDemo)' 
+2019-10-30 15:41:02.9470|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggerDemo.Controllers.HomeController (LoggerDemo). 
+2019-10-30 15:41:03.0023||ERROR|LoggerDemo.Controllers.HomeController|Attempted to divide by zero. 
+2019-10-30 15:41:03.0023||INFO|LoggerDemo.Controllers.HomeController|This is the test information for Logging 
+2019-10-30 15:41:03.0023||INFO|LoggerDemo.Controllers.HomeController|Next Information 
+2019-10-30 15:41:03.0216|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2019-10-30 15:41:03.0350|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 15.144ms. 
+2019-10-30 15:41:03.0350|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LoggerDemo.Controllers.HomeController.Index (LoggerDemo) in 82.79910000000001ms 
+2019-10-30 15:41:03.0565|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LoggerDemo.Controllers.HomeController.Index (LoggerDemo)' 
+2019-10-30 15:41:03.0682|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 130.6989ms 200 text/html; charset=utf-8 
+2019-10-30 15:41:03.8436|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/Home/Privacy   
+2019-10-30 15:41:03.8525|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LoggerDemo.Controllers.HomeController.Privacy (LoggerDemo)' 
+2019-10-30 15:41:03.8627|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller LoggerDemo.Controllers.HomeController (LoggerDemo). 
+2019-10-30 15:41:03.8627|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Privacy. 
+2019-10-30 15:41:03.8813|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Privacy executed in 13.0356ms. 
+2019-10-30 15:41:03.8813|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LoggerDemo.Controllers.HomeController.Privacy (LoggerDemo) in 20.6734ms 
+2019-10-30 15:41:03.8987|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LoggerDemo.Controllers.HomeController.Privacy (LoggerDemo)' 
+2019-10-30 15:41:03.8987|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 61.704100000000004ms 200 text/html; charset=utf-8 
+2019-10-30 15:43:29.5917||DEBUG|LoggerDemo.Program|init main function 
+2019-10-30 15:43:30.6346||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\vswin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-30 15:43:30.9646||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2019-10-30 15:43:30.9722||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2019-10-30 15:43:30.9722||INFO|Microsoft.Hosting.Lifetime|Content root path: F:\TCS_Training\LoggerDemo\LoggerDemo 
+2019-10-30 15:43:31.0102|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/   
+2019-10-30 15:43:31.0481|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LoggerDemo.Controllers.HomeController.Index (LoggerDemo)' 
+2019-10-30 15:43:31.1226|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggerDemo.Controllers.HomeController (LoggerDemo). 
+2019-10-30 15:43:31.1860||ERROR|LoggerDemo.Controllers.HomeController|Attempted to divide by zero. 
+2019-10-30 15:43:31.2426||INFO|LoggerDemo.Controllers.HomeController|This is the test information for Logging 
+2019-10-30 15:43:31.2575||INFO|LoggerDemo.Controllers.HomeController|Next Information 
+2019-10-30 15:43:31.3255|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2019-10-30 15:43:31.5250|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 199.3158ms. 
+2019-10-30 15:43:31.5380|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LoggerDemo.Controllers.HomeController.Index (LoggerDemo) in 405.46590000000003ms 
+2019-10-30 15:43:31.5495|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LoggerDemo.Controllers.HomeController.Index (LoggerDemo)' 
+2019-10-30 15:43:31.5495|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 550.0265ms 200 text/html; charset=utf-8 
+2019-10-30 15:43:31.5781|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/css/site.css   
+2019-10-30 15:43:31.5812|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/css/bootstrap.min.css   
+2019-10-30 15:43:31.5812|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/lib/jquery/dist/jquery.min.js   
+2019-10-30 15:43:31.6232|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\css\site.css' 
+2019-10-30 15:43:31.6274|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\lib\jquery\dist\jquery.min.js' 
+2019-10-30 15:43:31.6274|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css' 
+2019-10-30 15:43:31.6274|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 51.907900000000005ms 200 text/css 
+2019-10-30 15:43:31.6274|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 59.6302ms 200 text/css 
+2019-10-30 15:43:31.6274|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 54.984500000000004ms 200 application/javascript 
+2019-10-30 15:43:31.6468|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/js/bootstrap.bundle.min.js   
+2019-10-30 15:43:31.6468|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js' 
+2019-10-30 15:43:31.6573|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   
+2019-10-30 15:43:31.6573|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 10.4006ms 200 application/javascript 
+2019-10-30 15:43:31.6573|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\js\site.js' 
+2019-10-30 15:43:31.6739|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 16.6357ms 200 application/javascript 
+2019-10-30 15:43:43.3814||INFO|Microsoft.Hosting.Lifetime|Application is shutting down... 
+2019-10-30 15:55:38.8261||DEBUG|LoggerDemo.Program|init main function 
+2019-10-30 15:55:40.3769||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\vswin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-30 15:55:40.9054||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2019-10-30 15:55:40.9295||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2019-10-30 15:55:40.9492||INFO|Microsoft.Hosting.Lifetime|Content root path: F:\TCS_Training\LoggerDemo\LoggerDemo 
+2019-10-30 15:55:41.0894|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/   
+2019-10-30 15:55:41.2781|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LoggerDemo.Controllers.HomeController.Index (LoggerDemo)' 
+2019-10-30 15:55:41.4211|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggerDemo.Controllers.HomeController (LoggerDemo). 
+2019-10-30 15:55:41.5203||ERROR|databaseLogger|Error System.DivideByZeroException: Attempted to divide by zero.
+   at LoggerDemo.Controllers.HomeController.Index() in F:\TCS_Training\LoggerDemo\LoggerDemo\Controllers\HomeController.cs:line 31
+2019-10-30 15:55:41.8234||ERROR|LoggerDemo.Controllers.HomeController|Attempted to divide by zero. 
+2019-10-30 15:55:41.8371||INFO|LoggerDemo.Controllers.HomeController|This is the test information for Logging 
+2019-10-30 15:55:41.8371||INFO|LoggerDemo.Controllers.HomeController|Next Information 
+2019-10-30 15:55:41.8650|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2019-10-30 15:55:42.3380|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 468.16790000000003ms. 
+2019-10-30 15:55:42.3521|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LoggerDemo.Controllers.HomeController.Index (LoggerDemo) in 917.5291000000001ms 
+2019-10-30 15:55:42.3719|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LoggerDemo.Controllers.HomeController.Index (LoggerDemo)' 
+2019-10-30 15:55:42.3719|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   
+2019-10-30 15:55:42.3807|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/css/bootstrap.min.css   
+2019-10-30 15:55:42.3807|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/js/bootstrap.bundle.min.js   
+2019-10-30 15:55:42.3807|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/css/site.css   
+2019-10-30 15:55:42.4404|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 1372.8369ms 200 text/html; charset=utf-8 
+2019-10-30 15:55:42.4826|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\css\site.css' 
+2019-10-30 15:55:42.4978|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\js\site.js' 
+2019-10-30 15:55:42.5450|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 109.7061ms 200 text/css 
+2019-10-30 15:55:42.5501|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/lib/jquery/dist/jquery.min.js   
+2019-10-30 15:55:42.5501|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 182.21470000000002ms 200 application/javascript 
+2019-10-30 15:55:42.5501|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js' 
+2019-10-30 15:55:42.5781|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 189.2187ms 200 application/javascript 
+2019-10-30 15:55:42.6100|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\lib\jquery\dist\jquery.min.js' 
+2019-10-30 15:55:42.6100|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css' 
+2019-10-30 15:55:42.6100|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 152.1311ms 200 application/javascript 
+2019-10-30 15:55:42.6266|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 258.8535ms 200 text/css 
+2019-10-30 16:02:46.5142||DEBUG|LoggerDemo.Program|init main function 
+2019-10-30 16:02:47.4763||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\vswin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-30 16:02:47.8094||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2019-10-30 16:02:47.8183||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2019-10-30 16:02:47.8183||INFO|Microsoft.Hosting.Lifetime|Content root path: F:\TCS_Training\LoggerDemo\LoggerDemo 
+2019-10-30 16:02:47.8548|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/   
+2019-10-30 16:02:47.8850|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LoggerDemo.Controllers.HomeController.Index (LoggerDemo)' 
+2019-10-30 16:02:47.9432|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggerDemo.Controllers.HomeController (LoggerDemo). 
+2019-10-30 16:02:47.9763|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LoggerDemo.Controllers.HomeController.Index (LoggerDemo) in 21.2486ms 
+2019-10-30 16:02:47.9763|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LoggerDemo.Controllers.HomeController.Index (LoggerDemo)' 
+2019-10-30 16:02:48.0894|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.Logger`1[LoggerDemo.Controllers.HomeController]' while attempting to activate 'LoggerDemo.Controllers.HomeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-10-30 16:02:48.2676|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 414.3297ms 500 text/html; charset=utf-8 
+2019-10-30 16:05:05.3064||DEBUG|LoggerDemo.Program|init main function 
+2019-10-30 16:05:06.2968||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\vswin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-30 16:05:06.6207||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2019-10-30 16:05:06.6278||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2019-10-30 16:05:06.6278||INFO|Microsoft.Hosting.Lifetime|Content root path: F:\TCS_Training\LoggerDemo\LoggerDemo 
+2019-10-30 16:05:06.6688|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/   
+2019-10-30 16:05:06.7013|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LoggerDemo.Controllers.HomeController.Index (LoggerDemo)' 
+2019-10-30 16:05:06.7566|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggerDemo.Controllers.HomeController (LoggerDemo). 
+2019-10-30 16:05:06.8271||ERROR|LoggerDemo.Controllers.HomeController|Attempted to divide by zero. 
+2019-10-30 16:05:06.8348||INFO|LoggerDemo.Controllers.HomeController|This is the test information for Logging 
+2019-10-30 16:05:06.8348||INFO|LoggerDemo.Controllers.HomeController|Next Information 
+2019-10-30 16:05:06.8769|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2019-10-30 16:05:07.2618|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/css/bootstrap.min.css   
+2019-10-30 16:05:07.2686|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/js/bootstrap.bundle.min.js   
+2019-10-30 16:05:07.2686|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 332.8416ms. 
+2019-10-30 16:05:07.2686|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/lib/jquery/dist/jquery.min.js   
+2019-10-30 16:05:07.2870|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/css/site.css   
+2019-10-30 16:05:07.2870|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LoggerDemo.Controllers.HomeController.Index (LoggerDemo) in 519.4491ms 
+2019-10-30 16:05:07.3111|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LoggerDemo.Controllers.HomeController.Index (LoggerDemo)' 
+2019-10-30 16:05:07.3359|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\css\site.css' 
+2019-10-30 16:05:07.3444|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 63.101800000000004ms 200 text/css 
+2019-10-30 16:05:07.3444|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 677.0751ms 200 text/html; charset=utf-8 
+2019-10-30 16:05:07.3899|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   
+2019-10-30 16:05:07.3966|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\js\site.js' 
+2019-10-30 16:05:07.3966|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\lib\jquery\dist\jquery.min.js' 
+2019-10-30 16:05:07.3966|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js' 
+2019-10-30 16:05:07.4155|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 45.3776ms 200 application/javascript 
+2019-10-30 16:05:07.4155|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css' 
+2019-10-30 16:05:07.4155|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 149.7476ms 200 application/javascript 
+2019-10-30 16:05:07.4239|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 185.23100000000002ms 200 application/javascript 
+2019-10-30 16:05:07.4239|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 198.1791ms 200 text/css 
+2019-10-30 16:10:00.6187||DEBUG|LoggerDemo.Program|init main function 
+2019-10-30 16:10:01.4945||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\vswin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-30 16:10:01.8098||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2019-10-30 16:10:01.8435||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2019-10-30 16:10:01.8632||INFO|Microsoft.Hosting.Lifetime|Content root path: F:\TCS_Training\LoggerDemo\LoggerDemo 
+2019-10-30 16:10:01.8937|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/   
+2019-10-30 16:10:01.9254|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LoggerDemo.Controllers.HomeController.Index (LoggerDemo)' 
+2019-10-30 16:10:01.9891|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggerDemo.Controllers.HomeController (LoggerDemo). 
+2019-10-30 16:10:02.0531||ERROR|LoggerDemo.Controllers.HomeController|Attempted to divide by zero. 
+2019-10-30 16:10:02.0531||INFO|LoggerDemo.Controllers.HomeController|This is the test information for Logging 
+2019-10-30 16:10:02.0652||INFO|LoggerDemo.Controllers.HomeController|Next Information 
+2019-10-30 16:10:02.0975|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2019-10-30 16:10:02.2359|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 142.94240000000002ms. 
+2019-10-30 16:10:02.2562|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LoggerDemo.Controllers.HomeController.Index (LoggerDemo) in 258.80060000000003ms 
+2019-10-30 16:10:02.2562|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/css/site.css   
+2019-10-30 16:10:02.2562|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/css/bootstrap.min.css   
+2019-10-30 16:10:02.2562|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   
+2019-10-30 16:10:02.2562|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/lib/jquery/dist/jquery.min.js   
+2019-10-30 16:10:02.3153|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LoggerDemo.Controllers.HomeController.Index (LoggerDemo)' 
+2019-10-30 16:10:02.3566|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\js\site.js' 
+2019-10-30 16:10:02.3566|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\css\site.css' 
+2019-10-30 16:10:02.3695|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 470.8399ms 200 text/html; charset=utf-8 
+2019-10-30 16:10:02.3695|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 106.5038ms 200 application/javascript 
+2019-10-30 16:10:02.3566|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/js/bootstrap.bundle.min.js   
+2019-10-30 16:10:02.3802|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 118.7762ms 200 text/css 
+2019-10-30 16:10:02.3958|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\lib\jquery\dist\jquery.min.js' 
+2019-10-30 16:10:02.3958|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js' 
+2019-10-30 16:10:02.4172|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 144.2066ms 200 application/javascript 
+2019-10-30 16:10:02.4172|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 71.33030000000001ms 200 application/javascript 
+2019-10-30 16:10:02.4382|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'F:\TCS_Training\LoggerDemo\LoggerDemo\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css' 
+2019-10-30 16:10:02.4443|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 181.11880000000002ms 200 text/css 

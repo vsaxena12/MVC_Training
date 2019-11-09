@@ -1,0 +1,4 @@
+2019-10-30 14:54:47.6057||INFO|LoggingDemo.Controllers.HomeController|Log Information |url: https://localhost/|action: Index
+2019-10-30 14:54:47.6505||ERROR|LoggingDemo.Controllers.HomeController|Log Error |url: https://localhost/|action: Index
+2019-10-30 14:54:47.6560||WARN|LoggingDemo.Controllers.HomeController|Log Warning |url: https://localhost/|action: Index
+2019-10-30 14:59:37.9769||ERROR|LoggingDemo.Controllers.HomeController|Attempted to divide by zero. |url: https://localhost/|action: Index

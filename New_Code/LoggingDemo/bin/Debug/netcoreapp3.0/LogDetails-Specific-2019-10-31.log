@@ -1,0 +1,1 @@
+2019-10-31 10:02:15.3045||ERROR|LoggingDemo.Controllers.HomeController|Attempted to divide by zero. |url: https://localhost/|action: Index

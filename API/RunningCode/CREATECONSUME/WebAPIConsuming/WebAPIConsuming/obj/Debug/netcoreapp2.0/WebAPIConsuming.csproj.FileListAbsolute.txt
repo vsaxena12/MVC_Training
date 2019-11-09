@@ -1,0 +1,10 @@
+C:\Users\Arjun\source\repos\Core\WebAPIConsuming\WebAPIConsuming\bin\Debug\netcoreapp2.0\WebAPIConsuming.deps.json
+C:\Users\Arjun\source\repos\Core\WebAPIConsuming\WebAPIConsuming\bin\Debug\netcoreapp2.0\WebAPIConsuming.runtimeconfig.json
+C:\Users\Arjun\source\repos\Core\WebAPIConsuming\WebAPIConsuming\bin\Debug\netcoreapp2.0\WebAPIConsuming.runtimeconfig.dev.json
+C:\Users\Arjun\source\repos\Core\WebAPIConsuming\WebAPIConsuming\bin\Debug\netcoreapp2.0\WebAPIConsuming.dll
+C:\Users\Arjun\source\repos\Core\WebAPIConsuming\WebAPIConsuming\bin\Debug\netcoreapp2.0\WebAPIConsuming.pdb
+C:\Users\Arjun\source\repos\Core\WebAPIConsuming\WebAPIConsuming\obj\Debug\netcoreapp2.0\WebAPIConsuming.csproj.CoreCompileInputs.cache
+C:\Users\Arjun\source\repos\Core\WebAPIConsuming\WebAPIConsuming\obj\Debug\netcoreapp2.0\WebAPIConsuming.AssemblyInfoInputs.cache
+C:\Users\Arjun\source\repos\Core\WebAPIConsuming\WebAPIConsuming\obj\Debug\netcoreapp2.0\WebAPIConsuming.AssemblyInfo.cs
+C:\Users\Arjun\source\repos\Core\WebAPIConsuming\WebAPIConsuming\obj\Debug\netcoreapp2.0\WebAPIConsuming.dll
+C:\Users\Arjun\source\repos\Core\WebAPIConsuming\WebAPIConsuming\obj\Debug\netcoreapp2.0\WebAPIConsuming.pdb

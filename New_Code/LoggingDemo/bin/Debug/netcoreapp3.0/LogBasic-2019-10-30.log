@@ -1,0 +1,43 @@
+2019-10-30 14:54:45.9601||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-30 14:54:47.1614||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2019-10-30 14:54:47.1669||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2019-10-30 14:54:47.1669||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\admin\source\repos\Core\LoggingDemo 
+2019-10-30 14:54:47.3744|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44304/   
+2019-10-30 14:54:47.4517|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)' 
+2019-10-30 14:54:47.5978|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggingDemo.Controllers.HomeController (LoggingDemo). 
+2019-10-30 14:54:47.6057||INFO|LoggingDemo.Controllers.HomeController|Log Information 
+2019-10-30 14:54:47.6505||ERROR|LoggingDemo.Controllers.HomeController|Log Error 
+2019-10-30 14:54:47.6560||WARN|LoggingDemo.Controllers.HomeController|Log Warning 
+2019-10-30 14:54:47.7396|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2019-10-30 14:54:48.0797|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 343.33180000000004ms. 
+2019-10-30 14:54:48.0797|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LoggingDemo.Controllers.HomeController.Index (LoggingDemo) in 481.9211ms 
+2019-10-30 14:54:48.0900|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)' 
+2019-10-30 14:54:48.0900|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 724.7987ms 200 text/html; charset=utf-8 
+2019-10-30 14:54:48.1542|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44304/css/site.css   
+2019-10-30 14:54:48.1902|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44304/lib/bootstrap/dist/css/bootstrap.min.css   
+2019-10-30 14:54:48.1996|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44304/lib/jquery/dist/jquery.min.js   
+2019-10-30 14:54:48.2986|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44304/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   
+2019-10-30 14:54:48.3087|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified 
+2019-10-30 14:54:48.3087|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /css/site.css was not modified 
+2019-10-30 14:54:48.3087|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /js/site.js was not modified 
+2019-10-30 14:54:48.3087|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/jquery/dist/jquery.min.js was not modified 
+2019-10-30 14:54:48.3972|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 91.1858ms 304 application/javascript 
+2019-10-30 14:54:48.3972|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 242.95940000000002ms 304 text/css 
+2019-10-30 14:54:48.4023|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 216.1399ms 304 text/css 
+2019-10-30 14:54:48.4023|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 218.46470000000002ms 304 application/javascript 
+2019-10-30 14:54:48.4385|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44304/lib/bootstrap/dist/js/bootstrap.bundle.min.js   
+2019-10-30 14:54:48.4385|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified 
+2019-10-30 14:54:48.4484|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 11.792100000000001ms 304 application/javascript 
+2019-10-30 14:59:36.4804||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-30 14:59:36.7785||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2019-10-30 14:59:36.7926||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2019-10-30 14:59:36.7926||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\admin\source\repos\Core\LoggingDemo 
+2019-10-30 14:59:36.8195|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44304/   
+2019-10-30 14:59:36.8494|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)' 
+2019-10-30 14:59:36.9055|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggingDemo.Controllers.HomeController (LoggingDemo). 
+2019-10-30 14:59:37.9769||ERROR|LoggingDemo.Controllers.HomeController|Attempted to divide by zero. 
+2019-10-30 14:59:38.0149|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2019-10-30 14:59:38.1625|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 152.0338ms. 
+2019-10-30 14:59:38.2212|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LoggingDemo.Controllers.HomeController.Index (LoggingDemo) in 1258.9868000000001ms 
+2019-10-30 14:59:38.2304|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)' 
+2019-10-30 14:59:38.2304|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 1420.3298ms 200 text/html; charset=utf-8 

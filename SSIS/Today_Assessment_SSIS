@@ -1,0 +1,21 @@
+Today:
+--------------------------------
+Transformation Task:
+Department Data -> Excel Sheet
+- Split data based on location
+- Condtional Split
+- Select Chicago and Dallas Location
+--- Union
+--- 
+
+DB1.Employee and DB2.Employee
+---------------------------------
+ID
+Name
+Designation (AST, SE, ITA)
+Department
+Salary
+-- CSV File -> Employee Details -> Department Name(AST, SE, ITA full name) 
+-- Excel File -> Employee Details
+Department Name(AST, SE, ITA full name)
+Aggregate, Sort, Percentage Sampling, Row Sampling

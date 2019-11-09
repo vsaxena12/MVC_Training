@@ -1,0 +1,13 @@
+2019-10-31 10:02:14.3942||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-31 10:02:14.9945||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2019-10-31 10:02:15.0164||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2019-10-31 10:02:15.0203||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\admin\source\repos\Core\LoggingDemo 
+2019-10-31 10:02:15.1025|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44304/   
+2019-10-31 10:02:15.1593|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)' 
+2019-10-31 10:02:15.2254|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggingDemo.Controllers.HomeController (LoggingDemo). 
+2019-10-31 10:02:15.3045||ERROR|LoggingDemo.Controllers.HomeController|Attempted to divide by zero. 
+2019-10-31 10:02:17.2652|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2019-10-31 10:02:17.4926|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 232.8382ms. 
+2019-10-31 10:02:17.4926|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LoggingDemo.Controllers.HomeController.Index (LoggingDemo) in 2266.219ms 
+2019-10-31 10:02:17.5023|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)' 
+2019-10-31 10:02:17.5023|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2408.913ms 200 text/html; charset=utf-8 

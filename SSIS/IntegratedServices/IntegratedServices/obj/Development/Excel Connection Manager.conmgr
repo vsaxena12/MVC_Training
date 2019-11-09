@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Excel Connection Manager"
+  DTS:DTSID="{D544A565-96F3-429F-8012-08CE7C378708}"
+  DTS:CreationName="EXCEL">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=F:\MVC_Training\SSIS\SSIS.xls;Extended Properties=&quot;EXCEL 8.0;HDR=YES&quot;;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

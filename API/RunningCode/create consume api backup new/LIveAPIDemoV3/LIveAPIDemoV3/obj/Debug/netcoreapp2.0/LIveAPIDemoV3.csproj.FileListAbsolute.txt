@@ -1,0 +1,11 @@
+C:\Users\Arjun\source\repos\Core\LIveAPIDemoV3\LIveAPIDemoV3\bin\Debug\netcoreapp2.0\LIveAPIDemoV3.deps.json
+C:\Users\Arjun\source\repos\Core\LIveAPIDemoV3\LIveAPIDemoV3\bin\Debug\netcoreapp2.0\LIveAPIDemoV3.runtimeconfig.json
+C:\Users\Arjun\source\repos\Core\LIveAPIDemoV3\LIveAPIDemoV3\bin\Debug\netcoreapp2.0\LIveAPIDemoV3.runtimeconfig.dev.json
+C:\Users\Arjun\source\repos\Core\LIveAPIDemoV3\LIveAPIDemoV3\bin\Debug\netcoreapp2.0\LIveAPIDemoV3.dll
+C:\Users\Arjun\source\repos\Core\LIveAPIDemoV3\LIveAPIDemoV3\bin\Debug\netcoreapp2.0\LIveAPIDemoV3.pdb
+C:\Users\Arjun\source\repos\Core\LIveAPIDemoV3\LIveAPIDemoV3\obj\Debug\netcoreapp2.0\LIveAPIDemoV3.csproj.CoreCompileInputs.cache
+C:\Users\Arjun\source\repos\Core\LIveAPIDemoV3\LIveAPIDemoV3\obj\Debug\netcoreapp2.0\LIveAPIDemoV3.AssemblyInfoInputs.cache
+C:\Users\Arjun\source\repos\Core\LIveAPIDemoV3\LIveAPIDemoV3\obj\Debug\netcoreapp2.0\LIveAPIDemoV3.AssemblyInfo.cs
+C:\Users\Arjun\source\repos\Core\LIveAPIDemoV3\LIveAPIDemoV3\obj\Debug\netcoreapp2.0\LIveAPIDemoV3.dll
+C:\Users\Arjun\source\repos\Core\LIveAPIDemoV3\LIveAPIDemoV3\obj\Debug\netcoreapp2.0\LIveAPIDemoV3.pdb
+C:\Users\Arjun\source\repos\Core\LIveAPIDemoV3\LIveAPIDemoV3\obj\Debug\netcoreapp2.0\LIveAPIDemoV3.csprojResolveAssemblyReference.cache

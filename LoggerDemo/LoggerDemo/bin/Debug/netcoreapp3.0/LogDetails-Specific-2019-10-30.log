@@ -1,0 +1,50 @@
+2019-10-30 14:53:26.9835||DEBUG|LoggerDemo.Program|init main function |url: |action: 
+2019-10-30 14:53:29.3189||ERROR|LoggerDemo.Controllers.HomeController|Attempted to divide by zero. |url: https://localhost/|action: Index
+2019-10-30 15:00:29.4526||DEBUG|LoggerDemo.Program|init main function |url: |action: 
+2019-10-30 15:00:31.2175||ERROR|LoggerDemo.Controllers.HomeController|Attempted to divide by zero. |url: https://localhost/|action: Index
+2019-10-30 15:00:31.2291||INFO|LoggerDemo.Controllers.HomeController|This is the test information for Logging |url: https://localhost/|action: Index
+2019-10-30 15:00:31.2356||INFO|LoggerDemo.Controllers.HomeController|Next Information |url: https://localhost/|action: Index
+2019-10-30 15:38:23.4134||DEBUG|LoggerDemo.Program|init main function |url: |action: 
+2019-10-30 15:38:25.1121||ERROR|LoggerDemo.Controllers.HomeController|Attempted to divide by zero. |url: https://localhost/|action: Index
+2019-10-30 15:38:25.1121||INFO|LoggerDemo.Controllers.HomeController|This is the test information for Logging |url: https://localhost/|action: Index
+2019-10-30 15:38:25.1263||INFO|LoggerDemo.Controllers.HomeController|Next Information |url: https://localhost/|action: Index
+2019-10-30 15:40:54.0016||DEBUG|LoggerDemo.Program|init main function |url: |action: 
+2019-10-30 15:41:03.0023||ERROR|LoggerDemo.Controllers.HomeController|Attempted to divide by zero. |url: https://localhost/|action: Index
+2019-10-30 15:41:03.0023||INFO|LoggerDemo.Controllers.HomeController|This is the test information for Logging |url: https://localhost/|action: Index
+2019-10-30 15:41:03.0023||INFO|LoggerDemo.Controllers.HomeController|Next Information |url: https://localhost/|action: Index
+2019-10-30 15:43:29.5917||DEBUG|LoggerDemo.Program|init main function |url: |action: 
+2019-10-30 15:43:31.1860||ERROR|LoggerDemo.Controllers.HomeController|Attempted to divide by zero. |url: https://localhost/|action: Index
+2019-10-30 15:43:31.2426||INFO|LoggerDemo.Controllers.HomeController|This is the test information for Logging |url: https://localhost/|action: Index
+2019-10-30 15:43:31.2575||INFO|LoggerDemo.Controllers.HomeController|Next Information |url: https://localhost/|action: Index
+2019-10-30 15:55:38.8261||DEBUG|LoggerDemo.Program|init main function |url: |action: 
+2019-10-30 15:55:41.5203||ERROR|databaseLogger|Error System.DivideByZeroException: Attempted to divide by zero.
+   at LoggerDemo.Controllers.HomeController.Index() in F:\TCS_Training\LoggerDemo\LoggerDemo\Controllers\HomeController.cs:line 31|url: https://localhost/|action: Index
+2019-10-30 15:55:41.8234||ERROR|LoggerDemo.Controllers.HomeController|Attempted to divide by zero. |url: https://localhost/|action: Index
+2019-10-30 15:55:41.8371||INFO|LoggerDemo.Controllers.HomeController|This is the test information for Logging |url: https://localhost/|action: Index
+2019-10-30 15:55:41.8371||INFO|LoggerDemo.Controllers.HomeController|Next Information |url: https://localhost/|action: Index
+2019-10-30 16:02:46.5142||DEBUG|LoggerDemo.Program|init main function |url: |action: 
+2019-10-30 16:02:48.0894|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.Logger`1[LoggerDemo.Controllers.HomeController]' while attempting to activate 'LoggerDemo.Controllers.HomeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: https://localhost/|action: Index
+2019-10-30 16:05:05.3064||DEBUG|LoggerDemo.Program|init main function |url: |action: 
+2019-10-30 16:05:06.8271||ERROR|LoggerDemo.Controllers.HomeController|Attempted to divide by zero. |url: https://localhost/|action: Index
+2019-10-30 16:05:06.8348||INFO|LoggerDemo.Controllers.HomeController|This is the test information for Logging |url: https://localhost/|action: Index
+2019-10-30 16:05:06.8348||INFO|LoggerDemo.Controllers.HomeController|Next Information |url: https://localhost/|action: Index
+2019-10-30 16:10:00.6187||DEBUG|LoggerDemo.Program|init main function |url: |action: 
+2019-10-30 16:10:02.0531||ERROR|LoggerDemo.Controllers.HomeController|Attempted to divide by zero. |url: https://localhost/|action: Index
+2019-10-30 16:10:02.0531||INFO|LoggerDemo.Controllers.HomeController|This is the test information for Logging |url: https://localhost/|action: Index
+2019-10-30 16:10:02.0652||INFO|LoggerDemo.Controllers.HomeController|Next Information |url: https://localhost/|action: Index

@@ -1,0 +1,78 @@
+2019-10-30 14:53:26.5875 Info Message Template Auto Format enabled
+2019-10-30 14:53:26.6371 Info Loading assembly: NLog.Web.AspNetCore
+2019-10-30 14:53:26.7904 Info Adding target FileTarget(Name=alldata)
+2019-10-30 14:53:26.8057 Info Adding target FileTarget(Name=RequiredInfo)
+2019-10-30 14:53:26.8829 Info Found 45 configuration items
+2019-10-30 15:00:28.9616 Info Message Template Auto Format enabled
+2019-10-30 15:00:29.0460 Info Loading assembly: NLog.Web.AspNetCore
+2019-10-30 15:00:29.3260 Info Adding target FileTarget(Name=alldata)
+2019-10-30 15:00:29.3544 Info Adding target FileTarget(Name=RequiredInfo)
+2019-10-30 15:00:29.4119 Info Found 45 configuration items
+2019-10-30 15:38:23.0170 Info Message Template Auto Format enabled
+2019-10-30 15:38:23.0579 Info Loading assembly: NLog.Web.AspNetCore
+2019-10-30 15:38:23.2628 Info Adding target FileTarget(Name=alldata)
+2019-10-30 15:38:23.2879 Info Adding target FileTarget(Name=RequiredInfo)
+2019-10-30 15:38:23.3169 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: databaseLogger.
+2019-10-30 15:38:23.3758 Info Found 46 configuration items
+2019-10-30 15:40:52.8318 Info Configuration file change detected! Reloading in 1000ms...
+2019-10-30 15:40:52.8318 Info Configuration file change detected! Reloading in 1000ms...
+2019-10-30 15:40:52.8472 Info Configuration file change detected! Reloading in 1000ms...
+2019-10-30 15:40:53.7586 Info Message Template Auto Format enabled
+2019-10-30 15:40:53.7714 Info Loading assembly: NLog.Web.AspNetCore
+2019-10-30 15:40:53.8203 Info Adding target FileTarget(Name=alldata)
+2019-10-30 15:40:53.8203 Info Adding target FileTarget(Name=RequiredInfo)
+2019-10-30 15:40:53.9201 Info Configuring from an XML element in F:\TCS_Training\LoggerDemo\LoggerDemo\bin\Debug\netcoreapp3.0\nlog.config...
+2019-10-30 15:40:53.9289 Info Message Template Auto Format enabled
+2019-10-30 15:40:53.9289 Info Loading assembly: NLog.Web.AspNetCore
+2019-10-30 15:40:53.9451 Info Adding target FileTarget(Name=alldata)
+2019-10-30 15:40:53.9451 Info Adding target FileTarget(Name=RequiredInfo)
+2019-10-30 15:40:53.9586 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: databaseLogger.
+2019-10-30 15:40:53.9586 Info Closing old configuration.
+2019-10-30 15:40:54.0204 Info Found 46 configuration items
+2019-10-30 15:43:24.9383 Info Configuration file change detected! Reloading in 1000ms...
+2019-10-30 15:43:24.9383 Info Configuration file change detected! Reloading in 1000ms...
+2019-10-30 15:43:24.9383 Info Configuration file change detected! Reloading in 1000ms...
+2019-10-30 15:43:25.9620 Info Reloading configuration...
+2019-10-30 15:43:25.9854 Info Configuring from an XML element in F:\TCS_Training\LoggerDemo\LoggerDemo\bin\Debug\netcoreapp3.0\nlog.config...
+2019-10-30 15:43:25.9854 Info Message Template Auto Format enabled
+2019-10-30 15:43:26.0154 Info Loading assembly: NLog.Web.AspNetCore
+2019-10-30 15:43:26.0275 Info Adding target FileTarget(Name=alldata)
+2019-10-30 15:43:26.0410 Info Adding target FileTarget(Name=RequiredInfo)
+2019-10-30 15:43:26.0496 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: databaseLogger.
+2019-10-30 15:43:26.2652 Info Closing old configuration.
+2019-10-30 15:43:26.2960 Info Found 46 configuration items
+2019-10-30 15:43:29.3208 Info Message Template Auto Format enabled
+2019-10-30 15:43:29.3427 Info Loading assembly: NLog.Web.AspNetCore
+2019-10-30 15:43:29.4434 Info Adding target FileTarget(Name=alldata)
+2019-10-30 15:43:29.4728 Info Adding target FileTarget(Name=RequiredInfo)
+2019-10-30 15:43:29.5005 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: databaseLogger.
+2019-10-30 15:43:29.5505 Info Found 46 configuration items
+2019-10-30 15:43:43.4066 Info Shutdown() called. Logger closing...
+2019-10-30 15:43:43.4123 Info Closing old configuration.
+2019-10-30 15:43:43.4123 Info Logger has been closed down.
+2019-10-30 15:43:43.4241 Info AppDomain Shutting down. Logger closing...
+2019-10-30 15:43:43.4241 Info Logger has been shut down.
+2019-10-30 15:55:38.4300 Info Message Template Auto Format enabled
+2019-10-30 15:55:38.4658 Info Loading assembly: NLog.Web.AspNetCore
+2019-10-30 15:55:38.6295 Info Adding target FileTarget(Name=alldata)
+2019-10-30 15:55:38.6560 Info Adding target FileTarget(Name=RequiredInfo)
+2019-10-30 15:55:38.6912 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: databaseLogger.
+2019-10-30 15:55:38.7740 Info Found 46 configuration items
+2019-10-30 16:02:46.0723 Info Message Template Auto Format enabled
+2019-10-30 16:02:46.1202 Info Loading assembly: NLog.Web.AspNetCore
+2019-10-30 16:02:46.3399 Info Adding target FileTarget(Name=alldata)
+2019-10-30 16:02:46.3663 Info Adding target FileTarget(Name=RequiredInfo)
+2019-10-30 16:02:46.3880 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: databaseLogger.
+2019-10-30 16:02:46.4579 Info Found 46 configuration items
+2019-10-30 16:05:04.8878 Info Message Template Auto Format enabled
+2019-10-30 16:05:04.9261 Info Loading assembly: NLog.Web.AspNetCore
+2019-10-30 16:05:05.0798 Info Adding target FileTarget(Name=alldata)
+2019-10-30 16:05:05.1055 Info Adding target FileTarget(Name=RequiredInfo)
+2019-10-30 16:05:05.1535 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: databaseLogger.
+2019-10-30 16:05:05.2456 Info Found 46 configuration items
+2019-10-30 16:10:00.2818 Info Message Template Auto Format enabled
+2019-10-30 16:10:00.3406 Info Loading assembly: NLog.Web.AspNetCore
+2019-10-30 16:10:00.4979 Info Adding target FileTarget(Name=alldata)
+2019-10-30 16:10:00.5123 Info Adding target FileTarget(Name=RequiredInfo)
+2019-10-30 16:10:00.5299 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: databaseLogger.
+2019-10-30 16:10:00.5798 Info Found 46 configuration items

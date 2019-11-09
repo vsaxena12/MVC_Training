@@ -1,0 +1,30 @@
+C:\Users\461206\source\repos\WebApplication_APIC\WebApplication_APIC\bin\Debug\netcoreapp2.2\WebApplication_APIC.deps.json
+C:\Users\461206\source\repos\WebApplication_APIC\WebApplication_APIC\bin\Debug\netcoreapp2.2\WebApplication_APIC.runtimeconfig.json
+C:\Users\461206\source\repos\WebApplication_APIC\WebApplication_APIC\bin\Debug\netcoreapp2.2\WebApplication_APIC.runtimeconfig.dev.json
+C:\Users\461206\source\repos\WebApplication_APIC\WebApplication_APIC\bin\Debug\netcoreapp2.2\WebApplication_APIC.dll
+C:\Users\461206\source\repos\WebApplication_APIC\WebApplication_APIC\bin\Debug\netcoreapp2.2\WebApplication_APIC.pdb
+C:\Users\461206\source\repos\WebApplication_APIC\WebApplication_APIC\obj\Debug\netcoreapp2.2\WebApplication_APIC.csprojAssemblyReference.cache
+C:\Users\461206\source\repos\WebApplication_APIC\WebApplication_APIC\obj\Debug\netcoreapp2.2\WebApplication_APIC.csproj.CoreCompileInputs.cache
+C:\Users\461206\source\repos\WebApplication_APIC\WebApplication_APIC\obj\Debug\netcoreapp2.2\WebApplication_APIC.RazorAssemblyInfo.cache
+C:\Users\461206\source\repos\WebApplication_APIC\WebApplication_APIC\obj\Debug\netcoreapp2.2\WebApplication_APIC.RazorAssemblyInfo.cs
+C:\Users\461206\source\repos\WebApplication_APIC\WebApplication_APIC\obj\Debug\netcoreapp2.2\WebApplication_APIC.AssemblyInfoInputs.cache
+C:\Users\461206\source\repos\WebApplication_APIC\WebApplication_APIC\obj\Debug\netcoreapp2.2\WebApplication_APIC.AssemblyInfo.cs
+C:\Users\461206\source\repos\WebApplication_APIC\WebApplication_APIC\obj\Debug\netcoreapp2.2\WebApplication_APIC.RazorTargetAssemblyInfo.cache
+C:\Users\461206\source\repos\WebApplication_APIC\WebApplication_APIC\obj\Debug\netcoreapp2.2\WebApplication_APIC.dll
+C:\Users\461206\source\repos\WebApplication_APIC\WebApplication_APIC\obj\Debug\netcoreapp2.2\WebApplication_APIC.pdb
+F:\MVC_Training\Web API\WebApplication_APIC\WebApplication_APIC\bin\Debug\netcoreapp2.2\appsettings.Development.json
+F:\MVC_Training\Web API\WebApplication_APIC\WebApplication_APIC\bin\Debug\netcoreapp2.2\appsettings.json
+F:\MVC_Training\Web API\WebApplication_APIC\WebApplication_APIC\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+F:\MVC_Training\Web API\WebApplication_APIC\WebApplication_APIC\bin\Debug\netcoreapp2.2\WebApplication_APIC.deps.json
+F:\MVC_Training\Web API\WebApplication_APIC\WebApplication_APIC\bin\Debug\netcoreapp2.2\WebApplication_APIC.runtimeconfig.json
+F:\MVC_Training\Web API\WebApplication_APIC\WebApplication_APIC\bin\Debug\netcoreapp2.2\WebApplication_APIC.runtimeconfig.dev.json
+F:\MVC_Training\Web API\WebApplication_APIC\WebApplication_APIC\bin\Debug\netcoreapp2.2\WebApplication_APIC.dll
+F:\MVC_Training\Web API\WebApplication_APIC\WebApplication_APIC\bin\Debug\netcoreapp2.2\WebApplication_APIC.pdb
+F:\MVC_Training\Web API\WebApplication_APIC\WebApplication_APIC\obj\Debug\netcoreapp2.2\WebApplication_APIC.csprojAssemblyReference.cache
+F:\MVC_Training\Web API\WebApplication_APIC\WebApplication_APIC\obj\Debug\netcoreapp2.2\WebApplication_APIC.RazorAssemblyInfo.cache
+F:\MVC_Training\Web API\WebApplication_APIC\WebApplication_APIC\obj\Debug\netcoreapp2.2\WebApplication_APIC.RazorAssemblyInfo.cs
+F:\MVC_Training\Web API\WebApplication_APIC\WebApplication_APIC\obj\Debug\netcoreapp2.2\WebApplication_APIC.AssemblyInfoInputs.cache
+F:\MVC_Training\Web API\WebApplication_APIC\WebApplication_APIC\obj\Debug\netcoreapp2.2\WebApplication_APIC.AssemblyInfo.cs
+F:\MVC_Training\Web API\WebApplication_APIC\WebApplication_APIC\obj\Debug\netcoreapp2.2\WebApplication_APIC.RazorTargetAssemblyInfo.cache
+F:\MVC_Training\Web API\WebApplication_APIC\WebApplication_APIC\obj\Debug\netcoreapp2.2\WebApplication_APIC.dll
+F:\MVC_Training\Web API\WebApplication_APIC\WebApplication_APIC\obj\Debug\netcoreapp2.2\WebApplication_APIC.pdb
